@@ -1,0 +1,15 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.avans.nl/ivh5/worked-example"
+	xmlns:lib="http://www.avans.nl/ivh5/worked-example">
+
+    <element name="name"></element>
+    <element name="street"></element>
+    <element name="zipcode"></element>
+    <element name="place"></element>
+    <element name="phoneNumber"></element>
+    <element name="email"></element>
+    <element name="KVKNumber"></element>
+    <element name="IBAN"></element>
+    <element name="BIC"></element>
+    <element name="bank"></element>
+</schema>

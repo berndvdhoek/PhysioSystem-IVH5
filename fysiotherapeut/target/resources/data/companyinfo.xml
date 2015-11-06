@@ -1,0 +1,15 @@
+<company xmlns:lib="http://www.avans.nl/ivh5/worked-example" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.avans.nl/ivh5/worked-example accounts.xsd">
+
+	<name>Physiopraktijk Arfer</name>
+	<street>Lovensdijkstraat</street>
+	<zipcode>4040AA</zipcode>
+	<place>Breda</place>
+	<phoneNumber>0610020030</phoneNumber>
+	<email>physio@arfer.nl</email>
+	<KVKNummer>1413435431</KVKNummber>
+	<IBAN>NL00RABO012345678</IBAN>
+	<BIC>BIC135135135</BIC>
+	<bank>Rabobank</bank>
+</company>

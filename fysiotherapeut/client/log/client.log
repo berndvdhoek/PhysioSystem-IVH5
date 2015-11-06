@@ -1,0 +1,113 @@
+2015-09-15 17:21:02,716  INFO [LibraryClient.java] - Starting application
+2015-09-15 17:21:02,718 DEBUG [LibraryClient.java] - Constructor using localhost
+2015-09-15 17:21:02,719 DEBUG [LibraryClient.java] - Locate registry on localhost
+2015-09-15 17:21:02,817 DEBUG [LibraryClient.java] - Found registry
+2015-09-15 17:21:02,817 DEBUG [LibraryClient.java] - Connecting to remote serviceLibrary/Breda
+2015-09-15 17:21:02,861 DEBUG [LibraryClient.java] - Connected
+2015-09-15 17:21:02,916 DEBUG [Controller.java] - Constructor
+2015-09-15 17:21:05,616 DEBUG [UserInterface.java] - Constructor
+2015-09-15 17:21:05,618 DEBUG [DataTableModel.java] - Constructor
+2015-09-15 17:21:05,618 DEBUG [UserInterface.java] - initializeUserInterface
+2015-09-15 17:21:05,621 DEBUG [UserInterface.java] - setupMemberListPanel
+2015-09-15 17:21:05,818 DEBUG [DataTableModel.java] - setTableHeader
+2015-09-15 17:21:05,819 DEBUG [DataTableModel.java] - setValues String[][]
+2015-09-15 17:21:06,560 DEBUG [UserInterface.java] - setupMemberDetailPanel
+2015-09-15 17:21:06,762 DEBUG [UserInterface.java] - setupSearchPanel
+2015-09-15 17:21:06,767 DEBUG [UserInterface.java] - setStatusInfoPanel
+2015-09-15 17:21:23,663 DEBUG [Controller.java] - Cannot perform search; first find all members.
+2015-09-15 17:21:24,623 DEBUG [Controller.java] - Find all members on all hosts/services
+2015-09-15 17:21:24,623 DEBUG [Controller.java] - doFindAllMembers on all hosts/services
+2015-09-15 17:22:11,424 DEBUG [Controller.java] - Found 10 members
+2015-09-15 17:22:11,428 DEBUG [DataTableModel.java] - setValues RemoteMemberInfo
+2015-09-15 17:22:11,431 DEBUG [DataTableModel.java] - setValues String[][]
+2015-09-15 17:22:11,435 DEBUG [Controller.java] - Find all members on all hosts/services
+2015-09-15 17:22:11,435 DEBUG [Controller.java] - doFindAllMembers on all hosts/services
+2015-09-15 17:22:32,597 DEBUG [Controller.java] - Found 10 members
+2015-09-15 17:22:32,601 DEBUG [DataTableModel.java] - setValues RemoteMemberInfo
+2015-09-15 17:22:32,601 DEBUG [DataTableModel.java] - setValues String[][]
+2015-09-15 17:22:41,345 DEBUG [Controller.java] - Selected member = 1004
+2015-09-15 17:22:41,345 DEBUG [Controller.java] - doFindMember localhost Library/Breda 1004
+2015-09-15 17:22:41,367 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:22:45,470 DEBUG [Controller.java] - Selected member = 1005
+2015-09-15 17:22:45,471 DEBUG [Controller.java] - doFindMember localhost Library/Breda 1005
+2015-09-15 17:22:45,496 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:22:51,527 DEBUG [Controller.java] - Selected member = 1010
+2015-09-15 17:22:51,527 DEBUG [Controller.java] - doFindMember localhost Library/Breda 1010
+2015-09-15 17:22:51,557 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:22:53,439 DEBUG [Controller.java] - Selected member = 1011
+2015-09-15 17:22:53,439 DEBUG [Controller.java] - doFindMember localhost Library/Breda 1011
+2015-09-15 17:22:53,461 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:22:54,118 DEBUG [Controller.java] - Selected member = 2000
+2015-09-15 17:22:54,119 DEBUG [Controller.java] - doFindMember localhost Library/Oosterhout 2000
+2015-09-15 17:22:54,144 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:22:55,231 DEBUG [Controller.java] - Selected member = 2001
+2015-09-15 17:22:55,231 DEBUG [Controller.java] - doFindMember localhost Library/Oosterhout 2001
+2015-09-15 17:22:55,254 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:22:57,950 DEBUG [Controller.java] - Selected member = 2002
+2015-09-15 17:22:57,951 DEBUG [Controller.java] - doFindMember localhost Library/Oosterhout 2002
+2015-09-15 17:22:57,973 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:22:58,767 DEBUG [Controller.java] - Selected member = 2003
+2015-09-15 17:22:58,767 DEBUG [Controller.java] - doFindMember localhost Library/Oosterhout 2003
+2015-09-15 17:22:58,792 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:22:59,511 DEBUG [Controller.java] - Selected member = 2004
+2015-09-15 17:22:59,511 DEBUG [Controller.java] - doFindMember localhost Library/Oosterhout 2004
+2015-09-15 17:22:59,534 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:23:00,551 DEBUG [Controller.java] - Selected member = 2005
+2015-09-15 17:23:00,552 DEBUG [Controller.java] - doFindMember localhost Library/Oosterhout 2005
+2015-09-15 17:23:00,584 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:27:39,079  INFO [LibraryClient.java] - Starting application
+2015-09-15 17:27:39,082 DEBUG [LibraryClient.java] - Constructor using localhost
+2015-09-15 17:27:39,082 DEBUG [LibraryClient.java] - Locate registry on localhost
+2015-09-15 17:27:39,180 DEBUG [LibraryClient.java] - Found registry
+2015-09-15 17:27:39,180 DEBUG [LibraryClient.java] - Connecting to remote serviceLibrary/Breda
+2015-09-15 17:27:40,228 DEBUG [LibraryClient.java] - Connected
+2015-09-15 17:27:40,230 DEBUG [Controller.java] - Constructor
+2015-09-15 17:27:40,352 DEBUG [UserInterface.java] - Constructor
+2015-09-15 17:27:40,353 DEBUG [DataTableModel.java] - Constructor
+2015-09-15 17:27:40,353 DEBUG [UserInterface.java] - initializeUserInterface
+2015-09-15 17:27:40,354 DEBUG [UserInterface.java] - setupMemberListPanel
+2015-09-15 17:27:40,368 DEBUG [DataTableModel.java] - setTableHeader
+2015-09-15 17:27:40,368 DEBUG [DataTableModel.java] - setValues String[][]
+2015-09-15 17:27:40,406 DEBUG [UserInterface.java] - setupMemberDetailPanel
+2015-09-15 17:27:40,419 DEBUG [UserInterface.java] - setupSearchPanel
+2015-09-15 17:27:40,421 DEBUG [UserInterface.java] - setStatusInfoPanel
+2015-09-15 17:27:46,383 DEBUG [Controller.java] - Cannot perform search; first find all members.
+2015-09-15 17:27:54,230 DEBUG [Controller.java] - Find all members on all hosts/services
+2015-09-15 17:27:54,230 DEBUG [Controller.java] - doFindAllMembers on all hosts/services
+2015-09-15 17:27:55,233 ERROR [Controller.java] - Error finding members: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+2015-09-15 17:27:55,234 DEBUG [Controller.java] - Found 0 members
+2015-09-15 17:28:20,463 DEBUG [Controller.java] - Find all members on all hosts/services
+2015-09-15 17:28:20,463 DEBUG [Controller.java] - doFindAllMembers on all hosts/services
+2015-09-15 17:28:21,465 ERROR [Controller.java] - Error finding members: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+2015-09-15 17:28:21,466 DEBUG [Controller.java] - Found 0 members
+2015-09-15 17:28:48,098  INFO [LibraryClient.java] - Starting application
+2015-09-15 17:28:48,101 DEBUG [LibraryClient.java] - Constructor using localhost
+2015-09-15 17:28:48,101 DEBUG [LibraryClient.java] - Locate registry on localhost
+2015-09-15 17:28:48,212 DEBUG [LibraryClient.java] - Found registry
+2015-09-15 17:28:48,212 DEBUG [LibraryClient.java] - Connecting to remote serviceLibrary/Breda
+2015-09-15 17:28:48,266 DEBUG [LibraryClient.java] - Connected
+2015-09-15 17:28:48,268 DEBUG [Controller.java] - Constructor
+2015-09-15 17:28:48,419 DEBUG [UserInterface.java] - Constructor
+2015-09-15 17:28:48,419 DEBUG [DataTableModel.java] - Constructor
+2015-09-15 17:28:48,419 DEBUG [UserInterface.java] - initializeUserInterface
+2015-09-15 17:28:48,421 DEBUG [UserInterface.java] - setupMemberListPanel
+2015-09-15 17:28:48,438 DEBUG [DataTableModel.java] - setTableHeader
+2015-09-15 17:28:48,438 DEBUG [DataTableModel.java] - setValues String[][]
+2015-09-15 17:28:48,482 DEBUG [UserInterface.java] - setupMemberDetailPanel
+2015-09-15 17:28:48,497 DEBUG [UserInterface.java] - setupSearchPanel
+2015-09-15 17:28:48,500 DEBUG [UserInterface.java] - setStatusInfoPanel
+2015-09-15 17:28:50,255 DEBUG [Controller.java] - Find all members on all hosts/services
+2015-09-15 17:28:50,256 DEBUG [Controller.java] - doFindAllMembers on all hosts/services
+2015-09-15 17:29:32,768 DEBUG [Controller.java] - Found 10 members
+2015-09-15 17:29:32,772 DEBUG [DataTableModel.java] - setValues RemoteMemberInfo
+2015-09-15 17:29:32,773 DEBUG [DataTableModel.java] - setValues String[][]
+2015-09-15 17:29:55,759 DEBUG [Controller.java] - doFindMember localhost Library/Breda 1004
+2015-09-15 17:29:55,782 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:30:47,878 DEBUG [Controller.java] - Selected member = 1011
+2015-09-15 17:30:47,879 DEBUG [Controller.java] - doFindMember localhost Library/Breda 1011
+2015-09-15 17:30:47,901 DEBUG [UserInterface.java] - setMemberDetails
+2015-09-15 17:30:49,303 DEBUG [Controller.java] - Selected member = 1005
+2015-09-15 17:30:49,303 DEBUG [Controller.java] - doFindMember localhost Library/Breda 1005
+2015-09-15 17:30:49,320 DEBUG [UserInterface.java] - setMemberDetails

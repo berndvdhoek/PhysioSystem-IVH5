@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><employees xmlns:lib="http://www.avans.nl/ivh5/worked-example" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.avans.nl/ivh5/worked-example employees.xsd">
+
+
+<employee><id>1</id><firstname>Bernd</firstname><lastname>van den Hoek</lastname><phoneNr>0612345678</phoneNr><email>bhoek@avans.nl</email></employee>
+<employee><id>2</id><firstname>Ferdinand</firstname><lastname>van Disseldorp</lastname><phoneNr>0612121212</phoneNr><email>fjpdisse@avans.nl</email></employee>
+<employee><id>3</id><firstname>Fer</firstname><lastname>van Disseldorp</lastname><phoneNr>0612121212</phoneNr><email>fjpdisse@avans.nl</email></employee>
+<employee><id>4</id><firstname>F</firstname><lastname>van Disseldorp</lastname><phoneNr>0612121212</phoneNr><email>fjpdisse@avans.nl</email></employee>
+</employees>

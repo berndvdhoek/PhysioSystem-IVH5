@@ -6,8 +6,6 @@
 package edu.avans.ivh5.server.model.main;
 
 import edu.avans.ivh5.api.PhysioManagerClientIF;
-import edu.avans.ivh5.api.PhysioManagerServerIF;
-import edu.avans.ivh5.shared.rmi.PhysioServerInterface;
 import edu.avans.ivh5.shared.util.Settings;
 import java.net.MalformedURLException;
 import java.rmi.Naming;

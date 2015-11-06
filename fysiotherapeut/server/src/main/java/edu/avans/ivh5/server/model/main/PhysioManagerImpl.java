@@ -15,8 +15,6 @@ import edu.avans.ivh5.shared.model.domain.CompanyInfo;
 import edu.avans.ivh5.shared.model.domain.Employee;
 import edu.avans.ivh5.shared.model.domain.Session;
 import edu.avans.ivh5.shared.model.domain.Treatment;
-import edu.avans.ivh5.shared.models.SharedTreatment;
-import edu.avans.ivh5.shared.rmi.PhysioServerInterface;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 

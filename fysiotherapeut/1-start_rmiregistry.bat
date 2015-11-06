@@ -14,6 +14,6 @@
 :: can access the code at the codebase.
 ::
 
-rmiregistry -J-Djava.rmi.server.codebase="http://145.102.67.74/classes/physio-server.jar http://145.102.67.74/classes/physio-shared.jar http://145.102.67.74/classes/physio-api.jar http://145.102.67.74/classes/SharedPhysioInsurance-1.0-SNAPSHOT.jar"
+rmiregistry -J-Djava.rmi.server.codebase="http://localhost/classes/physio-server.jar http://145.102.67.74/classes/physio-shared.jar http://145.102.67.74/classes/physio-api.jar http://145.102.67.74/classes/SharedPhysioInsurance-1.0-SNAPSHOT.jar"
 
 @pause

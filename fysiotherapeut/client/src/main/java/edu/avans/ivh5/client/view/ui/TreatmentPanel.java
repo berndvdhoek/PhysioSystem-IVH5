@@ -5,6 +5,7 @@
  */
 package edu.avans.ivh5.client.view.ui;
 
+import edu.avans.ivh5.client.control.TreatmentController;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
@@ -14,6 +15,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.rmi.RemoteException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -39,9 +43,11 @@ public class TreatmentPanel extends JPanel {
     private JFrame parentFrame;
     private JTable treatmentTable;
     private JMenuItem alter, delete;
+    private TreatmentController controller;
 
-    public TreatmentPanel(JFrame parentFrame) {
+    public TreatmentPanel(JFrame parentFrame, TreatmentController controller) {
         this.parentFrame = parentFrame;
+        this.controller = controller;
         setLayout(new BorderLayout());
         add(createNorthPanel(), BorderLayout.NORTH);
         add(createCenterPanel(), BorderLayout.CENTER);
@@ -77,7 +83,9 @@ public class TreatmentPanel extends JPanel {
         panel.add(new JLabel(""));
 
         newButton = new JButton("Nieuwe behandeling");
+        newButton.addActionListener( new KnopHandler() );
         panel.add(newButton);
+        
         changeButton = new JButton("Wijzig behandeling");
         panel.add(changeButton);
         deleteButton = new JButton("Verwijder behandeling");
@@ -186,5 +194,17 @@ public class TreatmentPanel extends JPanel {
         menu.add(delete);
 
         return menu;
+    }
+    
+    class KnopHandler implements ActionListener{
+        public void actionPerformed(ActionEvent e){
+            if(e.getSource() == newButton){
+               AddTreatmentScreen screen = null; 
+                try {
+                    screen = new AddTreatmentScreen(controller);
+                } catch (RemoteException ex) {}
+               screen.setVisible(true);
+            }
+        }
     }
 }

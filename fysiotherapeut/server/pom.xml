@@ -51,7 +51,7 @@
 	<artifactId>ProftaakAPI</artifactId>
 	<version>1.0</version>
 	<scope>system</scope>
-	<systemPath>C:\development\java\IVH5A2 Project\fysiotherapeut\target\physio-api.jar</systemPath>
+	<systemPath>C:\Users\ferdinand\Documents\GitHub\IVH5\PhysioSystem-IVH5\fysiotherapeut\target\physio-api.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
@@ -63,11 +63,6 @@
       <artifactId>shared</artifactId>
       <version>1.0.0.RELEASE</version>
       <type>jar</type>
-    </dependency>
-    <dependency>
-      <groupId>com.mycompany</groupId>
-      <artifactId>SharedPhysioInsurance</artifactId>
-      <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
     <properties>
